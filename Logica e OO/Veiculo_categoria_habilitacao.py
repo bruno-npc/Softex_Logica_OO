@@ -12,7 +12,7 @@
 
 
 def categoriaHabilitacao (roda, peso, qtdPessoas):
-    if roda < 4:
+    if roda >= 2 and roda <= 3:
         print("A melhor categoria de habilitação para o veículo informado é: A")
     elif roda == 4 and qtdPessoas <= 8 and peso <= 3500:
         print("A melhor categoria de habilitação para o veículo informado é: B")
