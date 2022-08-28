@@ -26,16 +26,10 @@ def categoriaHabilitacao (roda, peso, qtdPessoas):
         print ("Categoria de veiculo não encontrada.")
 
 
-print("#######Caracteristicas do veículo#########")
-
-print("Digite a quantidade de rodas: ")
-roda = int(input())
-
-print("Digite o peso bruto em kg: ")
-peso = float(input())
-
-print("Digite a quantidade de pessoas que podem ocupar o veículo: ")
-qtdPessoas = int(input())
+print("\n #######Caracteristicas do veículo######### \n")
+roda = int(input("Digite a quantidade de rodas: "))
+peso = float(input("Digite o peso bruto em kg: "))
+qtdPessoas = int(input("Digite a quantidade de pessoas que podem ocupar o veículo: "))
 
 categoriaHabilitacao(roda, peso, qtdPessoas)
 
