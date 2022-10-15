@@ -15,7 +15,7 @@ var readlineSync = require('readline-sync');
 
 nota01 = parseFloat(readlineSync.question("Informe a primeira nota: \n"));
 nota02 = parseFloat(readlineSync.question("Informe a segunda nota: \n"));
-nota03 = parseFloat(readlineSync.question("Informe a segunda nota: \n"));
+nota03 = parseFloat(readlineSync.question("Informe a terceira nota: \n"));
 media = (nota01 + nota02 + nota03) / 3
 
 
